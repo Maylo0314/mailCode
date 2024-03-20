@@ -1,7 +1,8 @@
-// these values are usualy filled by a form
-        $subject = "Hello World"
-        $message = "Dit is het eerste mail bericht via PHP"
-        $email = "net24melfrink@net24melfrink.gc-webhosting.nl" // sender mail address use your own!
+<?php
+        // these values are usualy filled by a form
+        $subject = "Hello World";
+        $message = "Dit is het eerste mail bericht via PHP";
+        $email = "net24melfrink@net24melfrink.gc-webhosting.nl"; // sender mail address use your own!
 
         // Recipient email address
         $to = 'net24melfrink.gc-webhosting.nl';
@@ -17,3 +18,4 @@
         } else{
             echo '<p class="error">Unable to send email. Please try again!</p>';
         }
+?>
