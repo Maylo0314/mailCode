@@ -1,7 +1,7 @@
 // these values are usualy filled by a form
         $subject = "Hello World"
         $message = "Dit is het eerste mail bericht via PHP"
-        $email = "jan@jansen.nl" // sender mail address use your own!
+        $email = "net24melfrink@net24melfrink.gc-webhosting.nl" // sender mail address use your own!
 
         // Recipient email address
         $to = 'net24melfrink.gc-webhosting.nl';
