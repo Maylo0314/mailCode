@@ -5,7 +5,7 @@
         $email = "net24melfrink@net24melfrink.gc-webhosting.nl"; // sender mail address use your own!
 
         // Recipient email address
-        $to = 'net24melfrink.gc-webhosting.nl';
+        $to = 'maylo.elfrink@student.graafschapcollege.nl';
         
         // Create email headers
         $headers = 'From: '. $email . "\r\n" .
